@@ -1,0 +1,83 @@
+.card {
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+.card__img-back {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
+  object-fit: cover;
+}  
+
+@media screen and (max-width: 750px) {
+  .card__img-back {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card__img-back {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card__img-back {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.card__img-face {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 750px) {
+  .card__img-face {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card__img-face {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card__img-face {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.card .card__img-face{
+  transform: rotateY(90deg);
+  position: absolute;
+}
+
+.flipped .card__img-face{
+  transform: rotateY(0deg);
+}

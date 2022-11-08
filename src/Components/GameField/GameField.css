@@ -1,0 +1,14 @@
+.game-field {
+    max-width: 1000px;
+    max-height: 1000px;
+    display: grid;
+    margin: auto;
+    margin-top: 25px; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
