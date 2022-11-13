@@ -1,18 +1,24 @@
 
-.App {
-  height: 100%;
-  background-color: rgb(226, 116, 193);
+.app__defoult {
+  min-height: 100vh;
+  
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-left: 50px;
   padding-right: 50px;
   justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
+.app__pink-theme {
+  background-color: rgb(226, 116, 193);
+}
+
+.app__dark-blue-theme {
+  background-color: rgb(13, 23, 78);
+}
+
+@media screen and (max-width: 600px) {
   .App {
     padding-left: 10px;
     padding-right: 10px;
@@ -57,4 +63,15 @@
 .app__congratulations {
   color:rgb(105, 193, 243);
   font-size: 5em;
+}
+
+.app__change-theme-btn {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.app__change-theme-btn:hover{
+  opacity: 0.5;
 }
