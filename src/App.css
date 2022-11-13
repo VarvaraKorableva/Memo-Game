@@ -1,7 +1,6 @@
 
 .app__defoult {
   min-height: 100vh;
-  
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
@@ -19,7 +18,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .App {
+  .app__defoult {
     padding-left: 10px;
     padding-right: 10px;
   }
