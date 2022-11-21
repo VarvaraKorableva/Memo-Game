@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import GameField from './Components/GameField/GameField'
-import { pictures } from './const/const'
+import { pictures, carsPictures } from './const/const'
 
 function App() {
 
@@ -13,8 +13,7 @@ const [choiceTwo, setChoiceTwo] = React.useState(null)
 const [theme, setTheme] = React.useState(false)
 
 const shuffleCards = () => {
-
-  const shuffledCards = [...pictures, ...pictures]
+  const shuffledCards = [...carsPictures, ...carsPictures]
   .sort(() => Math.random() - 0.5)
   .map((card) => ({...card, id: Math.random()}))
   setChoiceOne(null)

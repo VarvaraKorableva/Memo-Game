@@ -18,7 +18,7 @@ function Card({card, handleChoice, flipped}) {
       <img className='card__img-back' 
         onClick={handleCardClick}
         alt= 'card'
-        src='https://images.unsplash.com/photo-1667596023184-79b24a3e5a23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMjB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
+        src='https://media.istockphoto.com/id/1395902516/photo/sky-with-beautiful-clouds-at-sunset.jpg?s=612x612&w=0&k=20&c=HDh-Hm5RqvE-XCcaTKmF9lA1Lj9-6GXnOqReVHFg4JE='
       />
 
     </div>
