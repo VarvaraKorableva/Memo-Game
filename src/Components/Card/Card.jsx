@@ -1,6 +1,6 @@
 import './Card.css';
 
-function Card({card, handleChoice, flipped}) {
+function Card({card, handleChoice, flipped, background}) {
 
   function handleCardClick(){
     handleChoice(card)
@@ -18,7 +18,7 @@ function Card({card, handleChoice, flipped}) {
       <img className='card__img-back' 
         onClick={handleCardClick}
         alt= 'card'
-        src='https://media.istockphoto.com/id/1395902516/photo/sky-with-beautiful-clouds-at-sunset.jpg?s=612x612&w=0&k=20&c=HDh-Hm5RqvE-XCcaTKmF9lA1Lj9-6GXnOqReVHFg4JE='
+        src={background}
       />
 
     </div>

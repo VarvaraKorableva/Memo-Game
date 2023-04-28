@@ -1,4 +1,4 @@
-  const pictures = [
+const pictures = [
     {
       'link':'https://images.unsplash.com/photo-1543362906-acfc16c67564?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA1fHxmcnVpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
       'matched':false,
@@ -38,6 +38,49 @@
       'link':'https://images.unsplash.com/photo-1584559582128-b8be739912e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
       'matched':false,
       'name':'fruit',
+    },
+  ]
+
+  const flowersPictures = [
+    {
+      'link':'https://images.unsplash.com/photo-1546810738-b0c7fe348c6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjM2fHxmbG93ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'flower',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1560256608-43f0b6f7588e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjI3fHxmbG93ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'flower',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1535850579364-952ef600d22e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjU5fHxmbG93ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'flower',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1560790671-b76ca4de55ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjg1fHxmbG93ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'flower',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1555803741-1ac759ac2f53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM4fHxmbG93ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'flower',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1607194467295-8ca6d873e5fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTYxfHxmbG93ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'flower',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1505333201693-150bb240ef16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTh8fGZsb3dlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'flower',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1556807182-1a42c64b8283?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI0fHxmbG93ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'flower',
     },
   ]
 
@@ -84,5 +127,91 @@
     },
   ]
 
+  const animalsPictures = [
+    {
+      'link':'https://images.unsplash.com/photo-1583511666372-62fc211f8377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE0fHxhbmltYWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'vegetable',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1574870111867-089730e5a72b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YW5pbWFsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'fruit',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1497206365907-f5e630693df0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFuaW1hbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'vegetable',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1681131119155-f85dc78417a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8NDc2MDA2Mnx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'fruit',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1657275875628-bffe67efe4ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjYwfDQ3NjAwNjJ8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'vegetable',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1661424869084-02299b733b7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTkwfDQ3NjAwNjJ8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'fruit',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1665677602807-39836757ce89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTM3fDQ3NjAwNjJ8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'vegetable',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1660315838529-34e129e1e878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjA4fDQ3NjAwNjJ8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'fruit',
+    },
+  ]
 
-  export {pictures, carsPictures};
+  const birdsPictures = [
+    {
+      'link':'https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxhbmltYWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'vegetable',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1591551279632-1407b8433e18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzM2fHxhbmltYWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'fruit',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1560779671-cf681817f968?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjcxfHxhbmltYWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'vegetable',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1585256262155-c044dc6ad38e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGFuaW1hbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'fruit',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1606396191626-1b3941444882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzU4fHxhbmltYWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'vegetable',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1619038779484-a27362fb82cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGFuaW1hbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'fruit',
+    },
+    {
+      'link':'https://images.unsplash.com/photo-1535083783855-76ae62b2914e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFuaW1hbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'vegetable',
+    },
+    {
+      'link':'https://plus.unsplash.com/premium_photo-1666777246899-053e06efdb35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFuaW1hbHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+      'matched':false,
+      'name':'fruit',
+    },
+  ]
+
+
+  export {pictures, carsPictures, flowersPictures, animalsPictures, birdsPictures};
