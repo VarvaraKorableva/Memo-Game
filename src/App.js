@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import GameField from './Components/GameField/GameField'
+import Footer from './Components/Footer/Footer'
 import { pictures, carsPictures, flowersPictures, animalsPictures, birdsPictures } from './const/const'
 import {backgroundPictures} from './const/background'
 
@@ -114,9 +115,10 @@ const changeTheme = () => {
 
   return (
     <div className={`app__defoult ${theme? "app__pink-theme": "app__dark-blue-theme"}`}>
-      <h1 className="app__title">Memo Game</h1>
-      
-
+      <div className="app__title-btn-container">
+        <h1 className="app__title">Memo Game</h1>
+        <button className="app__button" onClick={shuffleCards}>Click here to start again</button>
+      </div>
       <button className="app__change-theme-btn" onClick={changeTheme}>Change Theme</button>
       <div className="app__btn-container">
         <button className="app__change-theme-btn" onClick={showCars}>Cars</button>
@@ -126,7 +128,7 @@ const changeTheme = () => {
         <button className="app__change-theme-btn" onClick={showBirds}>Birds</button>
       </div>
       
-      <button className="app__button" onClick={shuffleCards}>Click here to start again</button>
+      
       <GameField
         background={background}
         cards={cards}
@@ -134,6 +136,8 @@ const changeTheme = () => {
         choiceOne={choiceOne}
         choiceTwo={choiceTwo}
       />
+
+      <Footer></Footer>
     </div>
   );
 }

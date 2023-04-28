@@ -1,8 +1,7 @@
 .card {
   position: relative;
-  /*border: 1px solid #fff;*/
-  box-shadow: 5px 5px 5px rgb(160, 205, 217);
-  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(160, 205, 217);
+  border-radius: 8px;
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
@@ -13,6 +12,10 @@
     max-width: 100px;
     max-height: 100px;
   }
+}
+
+.card:hover {
+  box-shadow: 4px 4px 4px rgb(160, 205, 217);
 }
 
 .card__img-back {
@@ -74,13 +77,6 @@
   }
 }
 
-/*@media screen and (max-width: 550px) {
-  .card__img-face {
-    width: 70px;
-    height: 70px;
-  }
-}*/
-
 @media screen and (max-width: 450px) {
   .card__img-face {
     width: 90px;
@@ -112,8 +108,10 @@
 .card .card__img-face{
   transform: rotateY(90deg);
   position: absolute;
+  transition: 0.3s ease;
 }
 
 .flipped .card__img-face{
   transform: rotateY(0deg);
+  transition: 0.3s ease;
 }
